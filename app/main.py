@@ -6,7 +6,6 @@ from pydantic import BaseModel
 
 from ml.mlsentiment.models import load_model
 
-
 model = None
 
 
@@ -17,7 +16,7 @@ async def lifespan(app: FastAPI):
     try:
         yield
     finally:
-        model = None
+        del model
 
 
 app = FastAPI(
@@ -38,19 +37,18 @@ async def sentiment_prediction(text: str) -> dict:
     Определяет настроение сообщения.
     """
     sentiment = model(text)
-    response = {
+    return {
         "Настроение": sentiment.label,
         "Текст": text,
         "Точность": round(sentiment.score, 2),
     }
-    return response
 
 
 # To generate OpenAPI schema
 def custom_openapi():
     if app.openapi_schema:
         return app.openapi_schema
-    openapi_schema = get_openapi(
+    return get_openapi(
         title="AI анализатор текста.",
         version="1.0.0",
         summary="Анализатор текста. Использует модель Hugging Face.",
@@ -62,7 +60,6 @@ def custom_openapi():
             "email": "nikita.n.irl@gmail.com",
         },
     )
-    return openapi_schema
 
 
 app.openapi = custom_openapi
