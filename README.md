@@ -1,6 +1,8 @@
 # Sentiment Analysis Microservice
 
-![Sentiment Analysis Microservice](https://downloader.disk.yandex.ru/preview/a1450b886faf2fdae9cf58a112ea53a3bc8063f2e39d3eee7c3f8dff22232eec/65baa090/c0xTB-RlQ9g8O1Auc5Khw6utgLAm4b-ji7PtPaXBqvakiLlJMCPCCCFOEJiUE_YK-KJb1j1vitB4uf_PiioS8Q%3D%3D?uid=0&filename=logo.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=1722x1281)
+<p align="center">
+  <img src="https://downloader.disk.yandex.ru/preview/a1450b886faf2fdae9cf58a112ea53a3bc8063f2e39d3eee7c3f8dff22232eec/65baa090/c0xTB-RlQ9g8O1Auc5Khw6utgLAm4b-ji7PtPaXBqvakiLlJMCPCCCFOEJiUE_YK-KJb1j1vitB4uf_PiioS8Q%3D%3D?uid=0&filename=logo.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=1722x1281" alt="Sentiment Analysis Microservice">
+</p>
 
 ## Описание
 
