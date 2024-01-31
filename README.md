@@ -1,6 +1,6 @@
 # Sentiment Analysis Microservice
 
-![Sentiment Analysis Microservice](https://your-image-url.com)
+![Sentiment Analysis Microservice](/app/ico/logo.png)
 
 ## Описание
 
