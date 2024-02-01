@@ -1,7 +1,7 @@
 # Sentiment Analysis Microservice
 
 <p align="center">
-  <img src="https://downloader.disk.yandex.ru/preview/68aad220c7a8c5421488883f0b043ba19c660bd8044e8bd47834ac2349f0d2a9/65baa1ff/IEu4thWZ5QKeK8ya-wsbVIOxDNWJaLVvqxarU8gM_jUJjNjY6o8EkZKDsHuw5Mm8BO82Gj-2Yuvm67GxDFqLnw%3D%3D?uid=0&filename=00053-1901053811.png&disposition=inline&hash=&limit=0&content_type=image%2Fpng&owner_uid=0&tknv=v2&size=1722x1281">
+  <img src="/logo.png">
 </p>
 
 ## Описание
