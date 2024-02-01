@@ -1,7 +1,7 @@
 # Sentiment Analysis Microservice
 
 <p align="center">
-  <img src="/logo.png">
+  <img src="/image.png">
 </p>
 
 
